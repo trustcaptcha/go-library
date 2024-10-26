@@ -26,7 +26,7 @@ func ParseVerificationToken(decodedToken []byte) (*VerificationToken, error) {
 }
 
 func FetchVerificationResult(apiEndpoint, verificationId, accessToken string) (*VerificationResult, error) {
-	url := apiEndpoint + "/verifications/" + verificationId + "/assessments?accessToken=" + accessToken
+	url := apiEndpoint + "/verifications/" + verificationId + "/assessments?accessToken=" + accessToken + "&pl=go"
 	resp, err := http.Get(url)
 	if err != nil {
 		return nil, err
