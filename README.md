@@ -21,7 +21,7 @@ Here you can see a short code example of a possible integration. Please refer to
 
 Installing the library
 
-``go get github.com/trustcaptcha/go-library@v1.0.1``
+``go get github.com/trustcaptcha/go-library@v1.0.4``
 
 Fetching and handling the result
 
