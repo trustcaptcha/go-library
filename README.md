@@ -12,12 +12,12 @@ You can find more information on your website: [www.trustcaptcha.com](https://ww
 
 ## How does the library work?
 
-Detailed instructions and examples for using the library can be found in our [documentation](https://trustcaptcha.com/en/documentation/backend/go).
+Detailed instructions and examples for using the library can be found in our [documentation](https://docs.trustcaptcha.com/en/documentation/backend/integration?backend=go).
 
 
 ## Short example
 
-Here you can see a short code example of a possible integration. Please refer to our provided [documentation](https://trustcaptcha.com/en/documentation/backend/go) for complete and up-to-date integration instructions.
+Here you can see a short code example of a possible integration. Please refer to our provided [documentation](https://docs.trustcaptcha.com/en/documentation/backend/integration?backend=go) for complete and up-to-date integration instructions.
 
 Installing the library
 
@@ -37,4 +37,4 @@ if !verificationResult.VerificationPassed || verificationResult.Score > 0.5 {
 
 ## Ideas and support
 
-If you have any ideas, suggestions, or need support, please [contact us](https://about.trustcaptcha.com/en#contact-us).
+If you have any ideas, suggestions, or need support, please [contact us](https://www.trustcaptcha.com/en/contact-us).
